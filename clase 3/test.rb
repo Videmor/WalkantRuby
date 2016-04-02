@@ -7,6 +7,7 @@ require_relative 'ejerc_test1'
 class TestText < Minitest::Test
 
   def test_saludo
+    assert_equal 8, 6 + 2
     assert_equal 'Bienvenido a Ruby', saludo
   end
 
